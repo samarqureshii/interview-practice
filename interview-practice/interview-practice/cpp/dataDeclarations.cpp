@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-void main(){
+void dataDeclarations(){
 //    (a) An integer
     int a;
 //

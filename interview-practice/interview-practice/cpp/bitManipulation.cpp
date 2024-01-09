@@ -8,6 +8,18 @@
 //Write a C++ program to encode bits in a 32-bit number such that, most significant 16 bits should be reversed but lower 16 bits should be untouched. Then asked to generalize this to any number of bits.
 
 //Count the number of set bits in an integer
+int countSetBits(unsigned int num){
+    int count = 0;
+    int numOfBits  = sizeof(num)*8;
+    
+    for(int i = 0; i<numOfBits; i++){
+        if(num & (1 << i)){ //this checks if the i-th bit is set 
+            count++;
+        }
+    }
+    
+    return count;
+}
 
 //Bit manipulation questions - detect pattern of ones, write masks to insert pattern of ones in a 32 bit integer, swapping adjacent odd and even bits 
 
@@ -31,6 +43,17 @@ unsigned int reverseBits(unsigned int num){
     return reverseNum;
 }
     //Check the parity of a given number
+int parityCheck(unsigned int num){
+//    //if number is even, return 0, if number is odd, return 1
+//    //we want to check if the LSB is set or not
+//    
+//    unsigned int numOfBits = sizeof(num)*8;
+//    //create bit mask
+//    return num & (1 << numOfBits-1);
+    
+    return num & 1;
+    
+}
     //Swap bits in a given integer(positions are provided)
 
 

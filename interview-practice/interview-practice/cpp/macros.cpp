@@ -12,6 +12,6 @@ using namespace std;
 #include <string>
 #include <iostream>
 
-void main(){
-    cout << "Hello world!";
+void macros(){
+    cout << "Hello world!" << endl;
 }
