@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C0324FEC2B4D7D4D00B03A88 /* unordered_map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0324FEB2B4D7D4D00B03A88 /* unordered_map.cpp */; };
 		C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07FEBF92B4D853C000E9692 /* multithreading.cpp */; };
+		C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */; };
+		C07FEBFE2B4E0D9A000E9692 /* watchdog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */; };
+		C0A1EF762B50759B006635B0 /* varintDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF752B50759B006635B0 /* varintDecoder.cpp */; };
 		C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A4C5AD2B4B4C86004E320A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 /* Begin PBXFileReference section */
 		C0324FEB2B4D7D4D00B03A88 /* unordered_map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = unordered_map.cpp; path = cpp/unordered_map.cpp; sourceTree = "<group>"; };
 		C07FEBF92B4D853C000E9692 /* multithreading.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = multithreading.cpp; path = cpp/multithreading.cpp; sourceTree = "<group>"; };
+		C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = memoryLocations.cpp; path = cpp/memoryLocations.cpp; sourceTree = "<group>"; };
+		C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchdog.cpp; path = cpp/watchdog.cpp; sourceTree = "<group>"; };
+		C0A1EF752B50759B006635B0 /* varintDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = varintDecoder.cpp; path = cpp/varintDecoder.cpp; sourceTree = "<group>"; };
 		C0A4C5AA2B4B4C86004E320A /* interview-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "interview-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4C5AD2B4B4C86004E320A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0A4C5B42B4B4CBC004E320A /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
@@ -70,6 +76,9 @@
 				C0A4C5B52B4B4CBC004E320A /* python */,
 				C0324FEB2B4D7D4D00B03A88 /* unordered_map.cpp */,
 				C07FEBF92B4D853C000E9692 /* multithreading.cpp */,
+				C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */,
+				C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */,
+				C0A1EF752B50759B006635B0 /* varintDecoder.cpp */,
 			);
 			path = "interview-practice";
 			sourceTree = "<group>";
@@ -132,8 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */,
+				C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */,
 				C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */,
 				C0324FEC2B4D7D4D00B03A88 /* unordered_map.cpp in Sources */,
+				C0A1EF762B50759B006635B0 /* varintDecoder.cpp in Sources */,
+				C07FEBFE2B4E0D9A000E9692 /* watchdog.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

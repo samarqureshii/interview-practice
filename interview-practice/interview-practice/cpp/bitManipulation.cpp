@@ -20,6 +20,25 @@ int countSetBits(unsigned int num){
     
     return count;
 }
+#include <iostream>
+
+int setting_clearing_toggling() {
+    unsigned char byte = 0b00001111; // 8-bit byte with lower 4 bits set
+
+    // Setting the 5th bit
+    byte |= (1 << 4);
+
+    // Clearing the 3rd bit
+    byte &= ~(1 << 2);
+
+    // Toggling the 1st bit
+    byte ^= 1;
+
+    std::cout << "Resulting byte: " << static_cast<int>(byte) << std::endl;
+
+    return 0;
+}
+
 
 //Bit manipulation questions - detect pattern of ones, write masks to insert pattern of ones in a 32 bit integer, swapping adjacent odd and even bits 
 

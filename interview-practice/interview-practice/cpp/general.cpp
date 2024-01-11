@@ -52,3 +52,15 @@ char firstNonRecurring(string str){
 // Function that takes a 2d array of a "sudoku board", and checks to make sure it is a possible board
  
 // Find the smallest and largest number in an array of large elements.
+
+//Write code to initialize a driver peripheral given a register map
+
+//Write code to turn a timer with a 32 bit timer into a 64 bit timer
+
+//Write a debouncing algorithm for a button
+
+//Write code to manipulate raw memory locations and bits
+
+//Write code to print out code using printf within an ISR. Assume that an RTOS is available
+
+
