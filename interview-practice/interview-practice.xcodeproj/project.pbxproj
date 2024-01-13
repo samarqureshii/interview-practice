@@ -12,6 +12,7 @@
 		C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */; };
 		C07FEBFE2B4E0D9A000E9692 /* watchdog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */; };
 		C0A1EF762B50759B006635B0 /* varintDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF752B50759B006635B0 /* varintDecoder.cpp */; };
+		C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF772B532D8F006635B0 /* multithreading2.cpp */; };
 		C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A4C5AD2B4B4C86004E320A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = memoryLocations.cpp; path = cpp/memoryLocations.cpp; sourceTree = "<group>"; };
 		C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = watchdog.cpp; path = cpp/watchdog.cpp; sourceTree = "<group>"; };
 		C0A1EF752B50759B006635B0 /* varintDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = varintDecoder.cpp; path = cpp/varintDecoder.cpp; sourceTree = "<group>"; };
+		C0A1EF772B532D8F006635B0 /* multithreading2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = multithreading2.cpp; path = cpp/multithreading2.cpp; sourceTree = "<group>"; };
 		C0A4C5AA2B4B4C86004E320A /* interview-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "interview-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4C5AD2B4B4C86004E320A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0A4C5B42B4B4CBC004E320A /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				C07FEBFB2B4E07D4000E9692 /* memoryLocations.cpp */,
 				C07FEBFD2B4E0D9A000E9692 /* watchdog.cpp */,
 				C0A1EF752B50759B006635B0 /* varintDecoder.cpp */,
+				C0A1EF772B532D8F006635B0 /* multithreading2.cpp */,
 			);
 			path = "interview-practice";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */,
 				C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */,
 				C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */,
 				C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */,

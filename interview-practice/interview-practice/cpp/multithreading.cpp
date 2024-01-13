@@ -50,13 +50,13 @@ void bankingOperation(BankAccount& account, int depositAmount, int withdrawAmoun
 }
 
 
-int main() {
+int mainBank() {
     // Create BankAccount object
     BankAccount account;
 
     // Create and start threads
-    //pass by refernce since thread normally passes by value?
-    thread t1(bankingOperation, ref(account), 500, 100); //we pass the function and its arguments instead of normally
+    //pass the account object by reference since you want to operate on the same object in multiple threads
+    thread t1(bankingOperation, ref(account), 500, 100); //notice how the thread constructor takes function arguments
     thread t2(bankingOperation, ref(account),400,500);
 
     // Join threads
