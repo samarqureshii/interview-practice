@@ -14,6 +14,7 @@
 		C0A1EF762B50759B006635B0 /* varintDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF752B50759B006635B0 /* varintDecoder.cpp */; };
 		C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF772B532D8F006635B0 /* multithreading2.cpp */; };
 		C0A1EF7A2B534788006635B0 /* dijkstraMultithread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF792B534788006635B0 /* dijkstraMultithread.cpp */; };
+		C0A1EF7C2B547B62006635B0 /* interruptHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF7B2B547B62006635B0 /* interruptHandler.cpp */; };
 		C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A4C5AD2B4B4C86004E320A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		C0A1EF752B50759B006635B0 /* varintDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = varintDecoder.cpp; path = cpp/varintDecoder.cpp; sourceTree = "<group>"; };
 		C0A1EF772B532D8F006635B0 /* multithreading2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = multithreading2.cpp; path = cpp/multithreading2.cpp; sourceTree = "<group>"; };
 		C0A1EF792B534788006635B0 /* dijkstraMultithread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dijkstraMultithread.cpp; path = cpp/dijkstraMultithread.cpp; sourceTree = "<group>"; };
+		C0A1EF7B2B547B62006635B0 /* interruptHandler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = interruptHandler.cpp; path = cpp/interruptHandler.cpp; sourceTree = "<group>"; };
 		C0A4C5AA2B4B4C86004E320A /* interview-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "interview-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4C5AD2B4B4C86004E320A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0A4C5B42B4B4CBC004E320A /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C0A1EF752B50759B006635B0 /* varintDecoder.cpp */,
 				C0A1EF772B532D8F006635B0 /* multithreading2.cpp */,
 				C0A1EF792B534788006635B0 /* dijkstraMultithread.cpp */,
+				C0A1EF7B2B547B62006635B0 /* interruptHandler.cpp */,
 			);
 			path = "interview-practice";
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A1EF7C2B547B62006635B0 /* interruptHandler.cpp in Sources */,
 				C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */,
 				C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */,
 				C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */,
