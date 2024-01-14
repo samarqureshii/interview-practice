@@ -6,6 +6,21 @@
 //Given an integer variable a, write two code fragments. The first should set bit 3 of a. The second should clear bit 3 of a. In both cases, the remaining bits should be unmodified.
 
 //Write a C++ program to encode bits in a 32-bit number such that, most significant 16 bits should be reversed but lower 16 bits should be untouched. Then asked to generalize this to any number of bits.
+unsigned int reverse32Bit(unsigned int num){
+    //extract the 16 MSB by creating a bit mask of 11111111111111110000000000000000
+    unsigned msb = num & 0xFFFF0000;
+    
+    //extract the 16 LSB using bit mask of 0000000000000000111111111111
+    unsigned lsb = num & 0x0000FFFF;
+
+    
+    //reverse the 16 MSB
+    
+    
+    //concatenate with the original 16 LSB
+    lsb|=msb;
+    
+}
 
 //Count the number of set bits in an integer
 int countSetBits(unsigned int num){

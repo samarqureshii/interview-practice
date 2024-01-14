@@ -1,2 +1,37 @@
 # interview-practice
 Interview prep/questions for firmware/embedded roles.
+## Bit manipulation 
+- `&` with bit mask to extract digits 
+- `num |= << bitPosition` to set a bit
+- `num &= ~(1 << bitPosition)` to clear a bit 
+- `num ^= 1 << bitPosition` to toggle a bit 
+- `if ((num & (1 << i)))` checks if the `i`th bit is set 
+    - `(1 << i)` will give us `0001`, `0010`, `0100`, and so on for each iteration
+    - We then compare it against the original number, if the result is non 0 (true), then we know that the `i`th bit is set
+
+## Multithreading
+- `lock_guard()`
+- `unique_lock()` so that we can unlock and lock one thread if it is dependent on another (good for CPU efficiency)
+
+## Common Data Structures
+### Queues (FIFO)
+- `empty()`	Returns whether the queue is empty. It return true if the queue is empty otherwise returns false.
+- `size()`	Returns the size of the queue.
+- `swap()`	Exchange the contents of two queues but the queues must be of the same data type, although sizes may differ.
+- `emplace()` Insert a new element into the queue container, the new element is added to the end of the queue.
+- `front()`	Returns a reference to the first element of the queue.
+- `back()`	Returns a reference to the last element of the queue.
+- `push(g)`	Adds the element ‘g’ at the end of the queue.
+- `pop()` 	Deletes the first element of the queue.
+
+### Stacks (LIFO)
+- `empty()` – Returns whether the stack is empty – Time Complexity : O(1)  
+- `size()` – Returns the size of the stack – Time Complexity : O(1) 
+- `top()` – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
+- `push(g)` – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
+- `pop()` – Deletes the most recent entered element of the stack – Time Complexity : O(1) 
+### Vector 
+- `size()` returns size
+- `front()` and `back()`
+- `push_back()` pushes the elements into a vector from the back
+- `pop_back()` used to pop or remove elements from a vector from the beck
