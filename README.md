@@ -1,5 +1,12 @@
 # interview-practice
 Interview prep/questions for firmware/embedded roles.
+## General knowledge
+- Be able to explain why C++ could be a problem in embedded systems (and how to deal with it)
+- Be able to explain why compiler optimization can cause problems and what the fix is
+- Be able to explain the difference between an RTOS and other kinds of OSes
+- Be able to explain what should and what should not be in an interrupt handler
+- Be able to talk about approaches to testing, unity tests, integration testing, etc
+- Learn about MISRA and why it helps embedded code
 ## Bit manipulation 
 - `&` with bit mask to extract digits 
 - `num |= << bitPosition` to set a bit

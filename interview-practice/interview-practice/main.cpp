@@ -15,11 +15,11 @@
 #include <random>
 #include <atomic>
 
-
 using namespace std;
-//You are developing firmware for an embedded system that counts external events. These events are signaled to the microcontroller through an interrupt. Your task is to write the interrupt handler and associated code to count these events.
 
+//Problem: Given an array of positive integers nums and an integer k, find the maximum sum of any contiguous subarray of size k. Write a function that returns this maximum sum.
 
-int main(){
-    
+int slidingWindow(int nums[], int k){
+    int sum = 0;
+    return sum;
 }
