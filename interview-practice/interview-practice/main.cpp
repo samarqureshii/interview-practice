@@ -14,12 +14,7 @@
 #include <queue>
 #include <random>
 #include <atomic>
+#include <stack>
 
 using namespace std;
 
-//Problem: Given an array of positive integers nums and an integer k, find the maximum sum of any contiguous subarray of size k. Write a function that returns this maximum sum.
-
-int slidingWindow(int nums[], int k){
-    int sum = 0;
-    return sum;
-}
