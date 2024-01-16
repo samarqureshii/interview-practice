@@ -16,6 +16,7 @@
 #include <atomic>
 #include <stack>
 #include <vector>
+#include <memory> //smart pointer 
 
 using namespace std;
 
@@ -32,13 +33,20 @@ ListNode* reverseLinkedList(ListNode* head) { //feed the head in
     if(head == nullptr){
         return nullptr;
     }
-    ListNode* temp;
-    ListNode* next = head;
-    while(next!=nullptr){
-        
+   
+    ListNode* prev = nullptr;
+    ListNode* curr = head;
+    ListNode* next = nullptr; //temp
+    
+    while(curr!=nullptr){
+        //iterate through each
+        next = curr->next; //temp node
+        curr->next = prev;
+        prev = curr;
+        curr = next;
     }
     
-    return head;
+    return prev;
 }
 
 int main() {

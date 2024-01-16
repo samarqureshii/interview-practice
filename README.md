@@ -8,6 +8,40 @@ Interview prep/questions for firmware/embedded roles.
 - Be able to talk about approaches to testing, unity tests, integration testing, etc
 - Learn about MISRA and why it helps embedded code
 ## Bit manipulation 
+- **Setting a Bit**:
+    - Use the OR operator (**`|`**) to set a particular bit.
+    - Example: **`num |= 1 << x;`** sets the **`x`**th bit of **`num`**.
+- **Clearing a Bit**:
+    - Use the AND operator (**`&`**) with NOT (**`~`**) to clear a bit.
+    - Example: **`num &= ~(1 << x);`** clears the **`x`**th bit of **`num`**.
+- **Toggling a Bit**:
+    - Use the XOR operator (**`^`**) to toggle a bit.
+    - Example: **`num ^= 1 << x;`** toggles the **`x`**th bit of **`num`**.
+- **Checking a Bit**:
+    - Use the AND operator to check the value of a bit.
+    - Example: **`if (num & (1 << x))`** checks if the **`x`**th bit of **`num`** is set.
+- **Changing the Value of a Bit to 1 or 0**:
+    - Combining setting and clearing operations.
+    - Example: **`num = (num & ~(1 << x)) | (val << x);`** changes the **`x`**th bit of **`num`** to **`val`** (1 or 0).
+- **Extracting a Subset of Bits**:
+    - Use bit shifting (**`>>`**) and masking (**`&`**).
+    - Example: **`(num >> p) & ((1 << n) - 1)`** extracts **`n`** bits starting from position **`p`**.
+- **Counting the Number of Set Bits**:
+    - Use a loop and shift/right-shift operators, or Brian Kernighan’s Algorithm.
+    - Example of simple method: **`while (num) { count += num & 1; num >>= 1; }`**
+- **Least Significant Bit (LSB) and Most Significant Bit (MSB)**:
+    - LSB: **`num & 1`**.
+    - MSB: Depends on the size of the data type, typically involves shifting.
+- **Bit Masking**:
+    - Using AND, OR, XOR operations with a mask to manipulate or check specific bits.
+    - Example: **`maskedNum = num & mask;`** where **`mask`** is a binary number.
+- **Endianness Conversion**:
+    - Sometimes, you may need to convert between little-endian and big-endian representations.
+    - Example: Swapping bytes of a 16-bit, 32-bit, or 64-bit number.
+- **Circular Shift or Bit Rotation**:
+    - Left or right rotate bits of a number.
+    - Example: **`num = (num << shift) | (num >> (sizeof(num) * CHAR_BIT - shift));`** for left rotate.
+---
 - `&` with bit mask to extract digits 
 - `num |= << bitPosition` to set a bit
 - `num &= ~(1 << bitPosition)` to clear a bit 
@@ -75,3 +109,35 @@ Interview prep/questions for firmware/embedded roles.
 ### Memory:
 - implement aligned malloc/free ** link
 - implement malloc/free using static buffers (arrays)
+
+## Miscellaneous
+1. **Implement a Linked List**:
+    - Write a simple linked list class with basic operations like insert, delete, and search. (Sometimes, they might ask for a doubly linked list instead).
+2. **Reverse a String**:
+    - Implement a function to reverse a string in C++ without using any built-in reverse functions.
+3. **Find the Middle Element of a Linked List**:
+    - Write a program to find the middle element of a singly linked list in one pass.
+4. **Binary Tree Traversal**:
+    - Implement in-order, pre-order, and post-order traversals of a binary tree.
+5. **Check for Balanced Parentheses**:
+    - Given a string containing characters '(', ')', '{', '}', '[' and ']', write a function to check if the input string has valid and balanced parentheses.
+6. **Merge Two Sorted Arrays**:
+    - Write a function to merge two sorted arrays into a single sorted array.
+7. **Detect a Cycle in a Linked List**:
+    - Implement an algorithm to detect a cycle in a linked list.
+8. **Implement a Stack or Queue**:
+    - Write your own stack or queue class, with methods to add, remove, and retrieve elements.
+9. **Find Duplicate or Missing Elements**:
+    - Given an array of integers where each element appears twice except for one, find that single one. Alternatively, find the missing number in a sequence.
+10. **Sorting Algorithms**:
+    - Implement a common sorting algorithm (like quicksort, mergesort, or bubblesort) and discuss its time complexity.
+11. **Implement a Hash Table**:
+    - Design a basic hash table without using any built-in data structures.
+12. **Find the 'Kth' Largest (or Smallest) Element in an Array**:
+    - Write a function to find the 'Kth' largest element in an unsorted array.
+13. **Depth-First Search (DFS) and Breadth-First Search (BFS) in Graphs**:
+    - Implement DFS and BFS traversals on a graph.
+14. **Dynamic Memory Allocation**:
+    - Demonstrate how you would manually manage dynamic memory allocation and deallocation (using **`new`** and **`delete`**).
+15. **Copy Constructor and Assignment Operator**:
+    - Explain and implement a copy constructor and an assignment operator for a class.
