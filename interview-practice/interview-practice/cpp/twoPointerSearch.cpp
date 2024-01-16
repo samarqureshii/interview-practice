@@ -36,5 +36,7 @@ bool twoPointerSearch(int nums[], int size, int target){ //assume nums is sorted
             return true;
         }
     }
+    
+    return false;
 }
 

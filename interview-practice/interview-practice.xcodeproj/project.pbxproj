@@ -19,6 +19,8 @@
 		C0A1EF802B548444006635B0 /* twoPointerSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF7F2B548444006635B0 /* twoPointerSearch.cpp */; };
 		C0A1EF842B54862A006635B0 /* slidingWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF832B54862A006635B0 /* slidingWindow.cpp */; };
 		C0A1EF862B54C215006635B0 /* reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF852B54C215006635B0 /* reverseString.cpp */; };
+		C0A1EF882B56FF9F006635B0 /* threadSafeQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF872B56FF9F006635B0 /* threadSafeQueue.cpp */; };
+		C0A1EF8A2B570617006635B0 /* reverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */; };
 		C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A4C5AD2B4B4C86004E320A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		C0A1EF7F2B548444006635B0 /* twoPointerSearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = twoPointerSearch.cpp; path = cpp/twoPointerSearch.cpp; sourceTree = "<group>"; };
 		C0A1EF832B54862A006635B0 /* slidingWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = slidingWindow.cpp; path = cpp/slidingWindow.cpp; sourceTree = "<group>"; };
 		C0A1EF852B54C215006635B0 /* reverseString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reverseString.cpp; path = cpp/reverseString.cpp; sourceTree = "<group>"; };
+		C0A1EF872B56FF9F006635B0 /* threadSafeQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = threadSafeQueue.cpp; path = cpp/threadSafeQueue.cpp; sourceTree = "<group>"; };
+		C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reverseLinkedList.cpp; path = cpp/reverseLinkedList.cpp; sourceTree = "<group>"; };
 		C0A4C5AA2B4B4C86004E320A /* interview-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "interview-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4C5AD2B4B4C86004E320A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0A4C5B42B4B4CBC004E320A /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				C0A1EF7F2B548444006635B0 /* twoPointerSearch.cpp */,
 				C0A1EF832B54862A006635B0 /* slidingWindow.cpp */,
 				C0A1EF852B54C215006635B0 /* reverseString.cpp */,
+				C0A1EF872B56FF9F006635B0 /* threadSafeQueue.cpp */,
+				C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */,
 			);
 			path = "interview-practice";
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 				C0A1EF7E2B54840B006635B0 /* binarySearch.cpp in Sources */,
 				C0A1EF7C2B547B62006635B0 /* interruptHandler.cpp in Sources */,
 				C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */,
+				C0A1EF8A2B570617006635B0 /* reverseLinkedList.cpp in Sources */,
 				C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */,
+				C0A1EF882B56FF9F006635B0 /* threadSafeQueue.cpp in Sources */,
 				C0A1EF842B54862A006635B0 /* slidingWindow.cpp in Sources */,
 				C0A1EF802B548444006635B0 /* twoPointerSearch.cpp in Sources */,
 				C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */,
