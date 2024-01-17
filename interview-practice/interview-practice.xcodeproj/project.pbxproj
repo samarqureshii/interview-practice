@@ -23,6 +23,9 @@
 		C0A1EF8A2B570617006635B0 /* reverseLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */; };
 		C0A1EF8C2B57122E006635B0 /* quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF8B2B57122E006635B0 /* quicksort.cpp */; };
 		C0A1EF8E2B5714B6006635B0 /* bitMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF8D2B5714B6006635B0 /* bitMapping.cpp */; };
+		C0A1EF902B582C86006635B0 /* bitSwapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF8F2B582C86006635B0 /* bitSwapping.cpp */; };
+		C0A1EF922B585DF3006635B0 /* evenOddBitSwap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF912B585DF3006635B0 /* evenOddBitSwap.cpp */; };
+		C0A1EF942B5860CE006635B0 /* memcpy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A1EF932B5860CE006635B0 /* memcpy.cpp */; };
 		C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0A4C5AD2B4B4C86004E320A /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reverseLinkedList.cpp; path = cpp/reverseLinkedList.cpp; sourceTree = "<group>"; };
 		C0A1EF8B2B57122E006635B0 /* quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = quicksort.cpp; path = cpp/quicksort.cpp; sourceTree = "<group>"; };
 		C0A1EF8D2B5714B6006635B0 /* bitMapping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bitMapping.cpp; path = cpp/bitMapping.cpp; sourceTree = "<group>"; };
+		C0A1EF8F2B582C86006635B0 /* bitSwapping.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bitSwapping.cpp; path = cpp/bitSwapping.cpp; sourceTree = "<group>"; };
+		C0A1EF912B585DF3006635B0 /* evenOddBitSwap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = evenOddBitSwap.cpp; path = cpp/evenOddBitSwap.cpp; sourceTree = "<group>"; };
+		C0A1EF932B5860CE006635B0 /* memcpy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = memcpy.cpp; path = cpp/memcpy.cpp; sourceTree = "<group>"; };
 		C0A4C5AA2B4B4C86004E320A /* interview-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "interview-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A4C5AD2B4B4C86004E320A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C0A4C5B42B4B4CBC004E320A /* cpp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cpp; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				C0A1EF892B570617006635B0 /* reverseLinkedList.cpp */,
 				C0A1EF8B2B57122E006635B0 /* quicksort.cpp */,
 				C0A1EF8D2B5714B6006635B0 /* bitMapping.cpp */,
+				C0A1EF8F2B582C86006635B0 /* bitSwapping.cpp */,
+				C0A1EF912B585DF3006635B0 /* evenOddBitSwap.cpp */,
+				C0A1EF932B5860CE006635B0 /* memcpy.cpp */,
 			);
 			path = "interview-practice";
 			sourceTree = "<group>";
@@ -175,6 +184,7 @@
 			files = (
 				C0A1EF7E2B54840B006635B0 /* binarySearch.cpp in Sources */,
 				C0A1EF7C2B547B62006635B0 /* interruptHandler.cpp in Sources */,
+				C0A1EF902B582C86006635B0 /* bitSwapping.cpp in Sources */,
 				C0A1EF782B532D8F006635B0 /* multithreading2.cpp in Sources */,
 				C0A1EF8E2B5714B6006635B0 /* bitMapping.cpp in Sources */,
 				C0A1EF8C2B57122E006635B0 /* quicksort.cpp in Sources */,
@@ -182,6 +192,8 @@
 				C07FEBFA2B4D853C000E9692 /* multithreading.cpp in Sources */,
 				C0A1EF882B56FF9F006635B0 /* threadSafeQueue.cpp in Sources */,
 				C0A1EF842B54862A006635B0 /* slidingWindow.cpp in Sources */,
+				C0A1EF942B5860CE006635B0 /* memcpy.cpp in Sources */,
+				C0A1EF922B585DF3006635B0 /* evenOddBitSwap.cpp in Sources */,
 				C0A1EF802B548444006635B0 /* twoPointerSearch.cpp in Sources */,
 				C07FEBFC2B4E07D4000E9692 /* memoryLocations.cpp in Sources */,
 				C0A4C5AE2B4B4C86004E320A /* main.cpp in Sources */,

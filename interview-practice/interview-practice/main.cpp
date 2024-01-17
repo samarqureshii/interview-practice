@@ -16,41 +16,11 @@
 #include <atomic>
 #include <stack>
 #include <vector>
-#include <memory> //smart pointer 
+#include <memory> //smart pointer lib
 
 using namespace std;
 
-//reverse a linkedlist
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(nullptr) {}
-};
-
-ListNode* reverseLinkedList(ListNode* head) { //feed the head in
-    //head becomes the tail
-    if(head == nullptr){
-        return nullptr;
-    }
-   
-    ListNode* prev = nullptr;
-    ListNode* curr = head;
-    ListNode* next = nullptr; //temp
+int main(){
     
-    while(curr!=nullptr){
-        //iterate through each
-        next = curr->next; //temp node
-        curr->next = prev;
-        prev = curr;
-        curr = next;
-    }
-    
-    return prev;
 }
-
-int main() {
-    // Example usage
-    // List creation and testing the function can be done here
-}
-

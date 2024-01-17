@@ -16,5 +16,16 @@
 uint32_t bitMap(uint32_t input){
     uint32_t output = 0;
     
+    //for every set bit, we get two set bits
+    //for every non set bit, we get one bit
+    
+    //we can only look at the first 16 bits of the input
+    for(int i = 0; i< 16; i++){
+        if(input & (1 << i)){ //is the ith bit set?
+            //multiply i by 2 and set that position bit in the output
+            output|= 3 << (i*2); //3 in binary is 11
+        }
+    }
+    
     return output;
 }

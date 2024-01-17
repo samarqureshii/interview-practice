@@ -8,6 +8,10 @@ Interview prep/questions for firmware/embedded roles.
 - Be able to talk about approaches to testing, unity tests, integration testing, etc
 - Learn about MISRA and why it helps embedded code
 ## Bit manipulation 
+- Use left shift when you want to multiply by a power of two, set specific bits, or construct a larger value from smaller components.
+-Use logical right shift for similar reasons as left shift but in the opposite direction (like division by powers of two) and for unsigned numbers.
+- Use arithmetic right shift when working with signed numbers, especially when you want to maintain the sign while performing operations akin to division.
+---
 - **Setting a Bit**:
     - Use the OR operator (**`|`**) to set a particular bit.
     - Example: **`num |= 1 << x;`** sets the **`x`**th bit of **`num`**.

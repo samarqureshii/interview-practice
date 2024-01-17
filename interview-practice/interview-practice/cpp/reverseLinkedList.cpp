@@ -11,6 +11,27 @@
 #include <thread>
 #include <iostream>
 
-void reverseLinkedList(){
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
+};
+
+ListNode* reverseLinkedList(ListNode* head){
+    if(head == nullptr){
+        return nullptr;
+    }
     
+    ListNode* prev = nullptr;
+    ListNode* curr = head;
+    ListNode* next = nullptr;
+    
+    while(curr!=nullptr){
+        next = curr->next; //temp
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+    
+    return prev; //new head of the list
 }
